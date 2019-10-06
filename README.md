@@ -1,26 +1,21 @@
 # Kotlin Project with all latest feature
 
-Gives a detailed explanation of working all the features/functionality/integrations in android application development.
+This repository Help in start new project with all the component need to start project:
+This project follow MVVM design pattern with livedata and databinding.
 
 ## feature/screen/design
 
-This repository provides the following components that are common to our open source projects:
-
-* androidX
-* base location (track location)
-* permission handler
-* local media file picker 
-* google map
-* geo fancing (enter & exit event)
-* room database
-* onBoarding screen
-* calligraphy fonts
-* login/signup screen
-* koin for DI(Dependency inversion)
-* custom calendar with (disable date, multiple/single selection, edited date)
-* simple all default widget
-* api calling
-* sms retriever Api 
+* Splash Activity
+* Calligraphy fonts
+* Way of Api Calling
+* Retrofit
 * MVVM(model, view, viewModel)
-* webview
-* retrofit
+* Koin for DI(Dependency inversion)
+* Room Database
+* Stetho for check DB table
+* Local media file picker
+* Runtime Permission handler
+* Location
+* Support Android X
+
+
