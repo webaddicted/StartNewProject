@@ -1,7 +1,13 @@
+<img src="demo/logo.png" width="40%" height="40%" />
 # Kotlin Project with all latest feature
 
 This repository Help in start new project with all the component need to start project:
 This project follow MVVM design pattern with livedata and databinding.
+
+Screenshot
+-----------
+
+![Demo screenshot](start_project.gif "gif demo")
 
 ## Feature/Screen/Design
 
