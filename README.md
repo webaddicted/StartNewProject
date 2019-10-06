@@ -12,10 +12,13 @@ This project follow MVVM design pattern with livedata and databinding.
 * MVVM(model, view, viewModel)
 * Koin for DI(Dependency inversion)
 * Room Database
+* LiveData
+* Kotlin
 * Stetho for check DB table
 * Local media file picker
 * Runtime Permission handler
 * Location
 * Support Android X
+* Api Pagination
 
 
