@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">KotlinProject</string>
+    <string name="network_error">Network Error</string>
+    <string name="internal_server_error">Internal Server Error</string>
+    <string name="remember_me">remember me</string>
+    <string name="login">login</string>
+    <string name="selected">selected</string>
+    <string name="unselected">unselected</string>
+    <string name="none">none</string>
+    <string name="select_date">select date</string>
+    <string name="select_time">select time</string>
+    <string name="start_progress">start progress</string>
+    <string name="marquee_txt">marquee txt</string>
+    <string name="first_name">first name</string>
+    <string name="password">password</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="ok">ok</string>
+    <string name="cancel">cancel</string>
+    <string name="forcefully_enable_permission">You have forcefully denied some of the required permissions for this action.\nPlease go to permissions and allow them.</string>
+    <string name="no_network_msg"><![CDATA[Please check your internet connection &amp; try again]]></string>
+    <string name="news_api_key">e5e212cc147343cb9389cfb497c52bc2</string>
+    <string name="please_wait">please wait</string>
+    <string name="loading">loading...</string>
+    <string name="something_went_wrong">something went wrong, please try again</string>
+    <string name="pick_image">choose image</string>
+    <string name="news_channel">news channel</string>
+    <string name="my_profile">my profile</string>
+    <string name="select_picture">select picture</string>
+    <string name="capture_image">capture image</string>
+    <string name="next">next</string>
+    <string name="got_it">Got it</string>
+    <string name="skip">skip</string>
+    <string-array name="image_loader">
+        <item>app_color</item><!--app color 0 -->
+        <item>country_flag</item><!--country flag 1 -->
+        <item>news_placeholder</item><!--news paper 2 -->
+        <item>good_morning</item><!--good morning 3 -->
+        <item>other image</item><!--other image-->
+    </string-array>
+    <string name="slide_1_title">Hello Food!</string>
+    <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
+
+    <string name="slide_2_title">Movie Tickets</string>
+    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+    <string name="signup">Sign up</string>
+    <string name="forgot_password">forgot password?</string>
+    <string name="email">email</string>
+    <string name="coding_exper">we pursue a relaxed coding experience</string>
+    <string name="full_name">full name</string>
+    <string name="nick_name">nick name</string>
+    <string name="mobile_no">mobile no</string>
+    <string name="error_uppercase_pattern">password must have atleast one uppercase character !!</string>
+    <string name="error_lowercase_pattern">password must have atleast one lowercase character !!</string>
+    <string name="error_digit_pattern">password must have atleast one digit character !!</string>
+    <string name="enter_first_name">enter first name</string>
+    <string name="enter_last_name">enter last name</string>
+    <string name="enter_your_email">enter email id</string>
+    <string name="error_enter_valid_email">enter valid email id</string>
+    <string name="error_email_must_be_different">email id must be different</string>
+    <string name="enter_dob">enter dob</string>
+    <string name="enter_country">enter country</string>
+    <string name="enter_passowrd">enter password</string>
+    <string name="error_passowrd_not_match">password not match</string>
+    <string name="error_password_different">password must be different</string>
+    <string name="error_referral_code">enter referral code</string>
+    <string name="error_valid_code">enter valid code</string>
+    <string name="error_six_digit_code">enter six digit code</string>
+    <string name="confirm_pwd_length">check confirm password length</string>
+    <string name="password_length">check password length</string>
+    <string name="please_enter_correct_password">please enter correct password</string>
+    <string name="create_an_account">create an account with this email</string>
+    <string name="first_name_can_not_blank">first name can\'t blank</string>
+    <string name="enter_mobile_no">mobile number can\'t blank</string>
+    <string name="enter_valid_mobile_no">enter valid mobile no</string>
+    <string name="select_language">select language</string>
+    <string name="submit">submit</string>
+    <string name="please_select_language">please select your preferred language</string>
+    <string name="txt_no_data_found">no data found for \nthis language</string>
+    <string name="google_map">google map</string>
+    <string name="draw_polyline">draw polyline</string>
+    <string name="task_title">task</string>
+    <string name="google_map_title" >google map</string>
+    <string name="geo_fencing">geo fencing</string>
+    <string name="geo_fencing_stop">geo fancy stop</string>
+    <string name="geo_fencing_start">geo fancing start</string>
+    <string name="circle_title">circle view</string>
+    <string name="widget_title">widget</string>
+    <string name="calendar_title">calendar</string>
+    <string name="generate_hash_code">generate hash code</string>
+    <string name="sms_retriever_title">sms retriever</string>
+    <string name="otp_code_is">otp code is</string>
+    <string name="refresh_hash_code"><![CDATA[refresh hash code before sending code\n <#> Your ExampleApp code is: 123ABC78     \nFA+9qCX9VSu]]></string>
+    <string name="webview_title">webview</string>
+    <string name="six_digit_otp">You will receive a 6-digit confirmation\n code via SMS to</string>
+    <string name="back">back</string>
+    <string name="take_photo">take photo</string>
+    <string name="photo_library">photo library</string>
+    <string name="back_online">back online</string>
+    <string name="no_internet_connection">no internet connection</string>
+    <string name="single_event_dialog">single event dialog</string>
+    <string name="two_event_dialog">two event dialog</string>
+    <string name="three_event_dialog">three event dialog</string>
+    <string name="custom_dialog">custom dialog</string>
+    <string name="dialog_fragment">dialog fragment</string>
+    <string name="list_dialog">list dialog</string>
+    <string name="selection_list_dialog">selection list dialog</string>
+    <string name="select_country">select country</string>
+    <string name="dialog_title">dialog</string>
+</resources>
