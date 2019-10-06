@@ -19,7 +19,6 @@ import java.util.*
  * Created by Deepak Sharma on 01/07/19.
  */
 class FileUtils {
-
     /**
      * Method to get size of file in kb
      *
@@ -31,7 +30,7 @@ class FileUtils {
     }
 
     companion object {
-        private val APP_FOLDER = "kotlinProhect"
+        private val APP_FOLDER = "StartProject"
         private val SUB_PROFILE = "/profile"
         private val SEPARATOR = "/"
         private val JPEG = ".jpeg"
@@ -63,56 +62,6 @@ class FileUtils {
          */
         fun subFolder(): File {
             return File(Environment.getExternalStorageDirectory().toString(), File.separator + APP_FOLDER + SUB_PROFILE)
-        }
-        /**
-         * Method to save bitmap
-         *
-         * @param bmp
-         * @return
-         */
-        fun savebitmap(bmp: Bitmap): File? {
-            val extStorageDirectory = Environment.getExternalStorageDirectory().toString() + "/criiio/profile"
-            var outStream: OutputStream? = null
-
-            // String temp = null;
-            val file = File(extStorageDirectory, System.currentTimeMillis().toString() + "_img.png")
-
-            try {
-                outStream = FileOutputStream(file)
-                bmp.compress(Bitmap.CompressFormat.PNG, 100, outStream)
-                outStream.flush()
-                outStream.close()
-
-            } catch (e: Exception) {
-                e.printStackTrace()
-                return null
-            }
-
-            return file
-        }
-        /**
-         * Helper method for saving the image.
-         *
-         * @param context The application context.
-         * @param image   The image to be saved.
-         * @return The path of the saved image.
-         */
-        internal fun saveImage(context: Context, image: Bitmap): File {
-            var imageFile: File? = null
-            var savedImagePath: String? = null
-            val imageFileName = "Img" + System.currentTimeMillis() + ".jpg"
-            imageFile = File(subFolder(), imageFileName)
-            savedImagePath = imageFile.absolutePath
-            try {
-                val fOut = FileOutputStream(imageFile)
-                image.compress(Bitmap.CompressFormat.JPEG, 100, fOut)
-                fOut.close()
-            } catch (e: Exception) {
-                e.printStackTrace()
-            }
-
-            updateGallery(context, savedImagePath)
-            return imageFile
         }
         fun saveImage(image: Bitmap?, folderPath: File?): File {
             var savedImagePath: String? = null
