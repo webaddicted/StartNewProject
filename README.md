@@ -3,7 +3,7 @@
 This repository Help in start new project with all the component need to start project:
 This project follow MVVM design pattern with livedata and databinding.
 
-## feature/screen/design
+## Feature/Screen/Design
 
 * Splash Activity
 * Calligraphy fonts
