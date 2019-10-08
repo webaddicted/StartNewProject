@@ -11,7 +11,7 @@ buildscript {
         RETROFIT_VERSION = '2.3.0'
         INTERCEPTER_VERSION = '3.8.0'
         GSON_VERSION = '2.8.5'
-        GLIDE_VERSION = '3.7.0'
+        GLIDE_VERSION = '4.10.0'
         CALLIGRAPHY_VERSION = '2.3.0'
         KOTLIN_COROUTINE_VERSION = '1.1.1'
         KOIN_VERSION = '2.0.0-rc-2'
