@@ -28,7 +28,7 @@ class NewsAdapter(private var newsList: ArrayList<NewsChanelRespo.Source>?) : Ba
             mRowBinding.txtChannelName.text = source?.name
             mRowBinding.txtChannelDesc.text = source?.description
             val stringBuilder = "https://besticon-demo.herokuapp.com/icon?url=" + source?.url + "&size=64..64..120"
-            mRowBinding.imgChannelImg.showImage(stringBuilder,  getPlaceHolder(2));
+            mRowBinding.imgChannelImg.showImage(stringBuilder,  getPlaceHolder(0));
         }
     }
 

@@ -6,10 +6,10 @@ import android.net.Uri
 import android.view.View
 import android.widget.ImageView
 import android.widget.Toast
-import com.bumptech.glide.DrawableTypeRequest
 import com.bumptech.glide.Glide
+import com.bumptech.glide.RequestBuilder
 import com.webaddicted.kotlinproject.R
-import de.hdodenhof.circleimageview.CircleImageView
+import com.webaddicted.kotlinproject.global.misc.CircleImageView
 import java.io.File
 
 /**
@@ -74,9 +74,9 @@ fun ImageView.showImage(imgUrl: String, imageLoaderType: String) {
 fun ImageView.showImage(filePath: File, imageLoaderType: String) {
     val drawableTypeRequest = Glide.with(context)
         .load(Uri.fromFile(filePath))
+
     getPlaceHolder(context, drawableTypeRequest, imageLoaderType).into(this)
 }
-
 
 /**
  * apply different type of place holder
@@ -88,9 +88,9 @@ fun ImageView.showImage(filePath: File, imageLoaderType: String) {
 </T> */
 fun <T> getPlaceHolder(
     context: Context,
-    drawableTypeRequest: DrawableTypeRequest<T>,
+    drawableTypeRequest: RequestBuilder<T>,
     imageLoaderType: String
-): DrawableTypeRequest<T> {
+): RequestBuilder<T> {
     val imageLoadersArray = context.getResources().getStringArray(R.array.image_loader)
     if (imageLoadersArray[0] == imageLoaderType) {
         drawableTypeRequest.error(R.drawable.logo)
@@ -102,6 +102,7 @@ fun <T> getPlaceHolder(
         drawableTypeRequest.error(R.color.app_color)
         drawableTypeRequest.placeholder(R.color.app_color)
     }
+//    drawableTypeRequest.diskCacheStrategy(DiskCacheStrategy.SOURCE)
     return drawableTypeRequest
 }
 //    {END SHOW IMAGE USING GLIDE}
