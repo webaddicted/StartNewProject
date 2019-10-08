@@ -33,7 +33,6 @@ import androidx.appcompat.widget.AppCompatImageView;
 
 import com.webaddicted.kotlinproject.R;
 
-//@SuppressLint("AppCompatCustomView")
 public class CircleImageView extends AppCompatImageView {
 
     private static final ScaleType SCALE_TYPE = ScaleType.CENTER_CROP;
