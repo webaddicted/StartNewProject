@@ -9,7 +9,7 @@ This project follow MVVM design pattern with livedata and databinding.
 Screenshot
 -----------
 
-![Demo screenshot](demo/texteditorvideo.mp4 "gif demo")
+![Demo screenshot](demo/start_project.gif "gif demo")
 
 
 ## Feature/Screen/Design
