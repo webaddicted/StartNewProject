@@ -14,6 +14,24 @@ android {
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+    flavorDimensions "versionCode"
+    flavorDimensions "appId"
+    productFlavors {
+        QA {
+            dimension "versionCode"
+            dimension "appId"
+            buildConfigField "boolean", "IS_QA", "true"
+            buildConfigField "String", "BASE_URL", '"http://tutorials.jenkov.com/"'
+        }
+        UAT {
+            dimension "versionCode"
+            dimension "appId"
+            buildConfigField "boolean", "IS_QA", "false"
+            buildConfigField "String", "BASE_URL", '"http://tutorials.jenkov.com/"'
+
+
+        }
+    }
     buildTypes {
         release {
             minifyEnabled false
